@@ -1,0 +1,120 @@
+/*Global*/
+
+/* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color:  (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+
+/*global styles */
+
+* {
+    /* #2 #font #faces */
+    font-family: 'Arial', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+strong,
+button {
+    /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+    text-transform: uppercase;
+}
+
+/*App bar*/
+
+h1 {
+    background-color: #3F51B5;
+    color: white;
+}
+
+/*Channels list*/
+
+ul {
+    list-style-type: none;
+    background-color: white;
+}
+
+li {
+    padding: 16px;
+    font-size: 16px;
+    box-sizing: border-box;
+    height: 48px;
+    border: 1px solid black;
+}
+
+li.selected {
+    border-left: 4px solid indigo;
+    color: indigo;
+
+}
+
+/*Tab bar*/
+
+#tab-bar {
+    background-color: white;
+
+}
+
+#tab-bar button {
+    background-color: white;
+    border: 0px;
+    margin: 0px;
+    font-size: 13px;
+    height: 72px;
+    padding: 16px;
+    width: 33.1%;
+    box-sizing: border-box;
+}
+
+#tab-bar button.selected {
+    border-bottom: 4px solid indigo;
+    color: indigo;
+}
+
+/*Messages*/
+
+.message {
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left: 2.5%;
+}
+
+.message h3 {
+    font-size: medium;
+}
+
+.message p {
+    padding: 16px;
+    background-color: white;
+}
+
+.message em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
+
+.message a {
+    color: black;
+}
+
+.message button {
+    /* #2 #colourful #plusfive */
+    background-color: #CDDC39;
+    color: black;
+    text-align: center;
+}
+
+.own-message {
+    margin-left: 17.5%;
+}
